@@ -24,7 +24,7 @@ public class HealthcareItSpringcloudM3TaskApplication {
 			@Override
 			public void run(String...strings) throws Exception {
 
-				//parameters: stationid, license plate, timestam
+				//parameters: stationid, license plate, timestamp
 
 				if(null != strings){
 					System.out.println("parameter length: " + strings.length);
